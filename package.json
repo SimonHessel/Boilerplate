@@ -1,0 +1,23 @@
+{
+  "name": "Boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon --ignore sessions/"
+  },
+  "author": "Simon Hessel",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "lowdb": "^1.0.0",
+    "mysql": "^2.16.0",
+    "session-file-store": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
